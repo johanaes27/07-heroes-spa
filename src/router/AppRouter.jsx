@@ -40,3 +40,4 @@ export const AppRouter = () => {
     </>
   )
 }
+ console.log(AppRouter);
