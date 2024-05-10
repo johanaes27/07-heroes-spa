@@ -32,7 +32,7 @@ export const SearchPage = () => {
 
 
   return (
-    <>
+    <div style={{color:'white'}}>
       <h1>Search</h1> 
       <hr />
 
@@ -90,6 +90,6 @@ export const SearchPage = () => {
       </div>
       
 
-    </>
+    </div>
   )
 }

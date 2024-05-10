@@ -29,9 +29,9 @@ export const HeroPage = () => {
         />
       </div>
 
-      <div className="col-8">
+      <div style={{color:'white'}} className="col-8">
         <h3>{ hero.superhero }</h3>
-        <ul className="list-group list-group-flush">
+        <ul className="list-group list-group-flush" style={{borderRadius: '12px'}} >
           <li className="list-group-item"> <b>Alter ego:</b> { hero.alter_ego } </li>
           <li className="list-group-item"> <b>Publisher:</b> { hero.publisher } </li>
           <li className="list-group-item"> <b>First appearance:</b> { hero.first_appearance } </li>

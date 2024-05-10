@@ -14,6 +14,6 @@ export const PrivateRoute = ({ children }) => {
     
 
     return (logged)
-        ? children
-        : <Navigate to="/login" />
+        ? <div  style={{backgroundImage: `url(https://www.10wallpaper.com/wallpaper/1366x768/1510/sky_star_light_dark-Design_HD_Wallpapers_1366x768.jpg)`, }}>{children}</div>
+        : <Navigate to="/auth/login" />
 }

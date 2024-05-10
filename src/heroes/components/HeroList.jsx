@@ -2,6 +2,7 @@
 import { useMemo } from 'react';
 import { HeroCard } from './';
 import { getHeroesByPublisher } from '../helpers';
+import Particle from '../components/Particle';
 
 export const HeroList = ({ publisher }) => {
 
