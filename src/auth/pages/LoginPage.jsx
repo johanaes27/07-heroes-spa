@@ -2,7 +2,7 @@
 // import { useNavigate } from 'react-router-dom';
 // import { AuthContext } from '../context/AuthContext';
 // import { Alert, Button, Grid, Link, TextField, Typography } from "@mui/material"
-import { Google } from "@mui/icons-material"
+
 import { Link as RouterLink } from 'react-router-dom';
 import { Alert, Button, Grid, Link, TextField, Typography } from "@mui/material"
 
@@ -114,7 +114,7 @@ return (
                 fullWidth
                 onClick={ onGoogleSignIn }                                    
                 >
-                  <Google />
+     
                   <Typography sx={{ ml: 1}}>Google</Typography>
                 </Button>
               </Grid>
